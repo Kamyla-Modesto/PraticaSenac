@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prática 3 - HTML</title>
+</head>
+<body>
+    <!--Primeira forma-->
+    <audio src="Ruff Money - The Grey Room _ Clark Sims.mp3" controls>Musica</audio>
+    
+    <!--Segunda forma-->
+    <audio preload="metadata" controls autoplay loop>
+        <source src="Ruff Money - The Grey Room _ Clark Sims.mp3" type="audio/mp3">
+    </audio>
+    <audio controls>
+        <!--Primeiro formato: o preferido-->
+        <source src="Ruff Money - The Grey Room _ Clark Sims.mp3" type="audio/mp3">
+        <!--Outros formatos alternativos-->
+        <source src="Ruff Money - The Grey Room _ Clark Sims.mp3" type="audio/ogg">
+        <source src="Ruff Money - The Grey Room _ Clark Sims.mp3" type="audio/wav">
+
+        <!-- Caso nenhum formato funcione -->
+         <p>Seu navegador não consegue reproduzir o áudio.</p>
+            <a href="Ruff Money - The Grey Room _ Clark Sims.mp3" download>Clique aqui para baixar o arquivo MP3</a>
+        </p>
+
+
+    </audio>
+
+    <video width="200" poster="pexels-chevanon-1108099.jpg" controls autoplay>
+        <source src="3023167-uhd_3840_2160_30fps.mp4" type="video/mp4">
+    </video>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/kffacxfA7G4?si=WUkzAMG78rADegCt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <h3>Input - TEXTO</h3>
+    <input type="text" placeholder="Qual o seu nome?">
+
+    <h3>Input - SENHA</h3>
+    <input type="password" placeholder="Digite sua senha">
+
+    <h3>Input - EMAIL </h3>
+    <input type="email" placeholder="Digite seu email">
+
+    <h3>Input - NUMEROS</h3>
+    <input type="number" min="0" max="100">
+
+    <h3>Input - TELEFONE</h3>
+    <input type="tel" placeholder="(88)999999-8888">
+
+    <h3>Input - DATA</h3>
+    <input type="date">
+
+    <H3>input - HORA</H3>
+    <input type="time">
+
+    <H3>Input - CHECKBOX</H3>
+    <input type="checkbox">
+
+    <h3>Input - RADIO (uma escolha) </h3>
+    <input type="radio" name="sexo"> Masculino
+    <input type="radio" name="sexo"> Feminino
+
+    <h3>Input - BOTÃO</h3>
+    <button>Clique aqui</button>
+    <input type="button" value="Clique aqui">
+
+    <P>IR PARA <a href="https://classroom.google.com/c/ODA3MTQ5MTAyNzMy">classroom</a></P>
+    <p>Página <a href="https://br.pinterest.com/">pinterest</a></p>
+</body>
+</html>
