@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+h1 {
+    color: rgb(44, 35, 175);
+    text-align: center;
+}
+
+
+
+body {
+    text-align: center;
+}
+
+.imagem {
+    border-radius: 20px;
+}
+
+.paragrafo {
+
+    text-align: justify;
+}
